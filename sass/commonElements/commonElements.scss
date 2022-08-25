@@ -1,0 +1,102 @@
+// Aqui os estilos que serão comuns em todas as páginas do site
+
+// Header
+.header{
+    font-size: 12px;
+    font-weight: bold;
+
+    #navItem{
+        margin-left: 10px;
+        &:hover{
+            color: $link-hover
+        }
+    }
+}
+
+.container00 {
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;  
+}
+
+// Seta da sessão 1
+.arrowDown{
+   display: inline-block;
+   width: 90px;
+   margin-top: 5px;
+}
+
+// Logo 
+.logoPc{
+    width: 240px;
+    margin-left: -10px;
+    margin-right: 20px;
+}
+
+// Botões
+#button{
+    padding: $padding-button;
+    border: 2px solid white;
+}
+
+// Footer da página  home
+.footer {
+    background-color: black;
+    height: 15vh;
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a{
+        text-decoration: none;
+        color: white;
+
+        &:hover{
+            color: $link-hover
+        }
+    }
+}
+
+// Símbolo copyright
+.copyOBC{
+    color: $copy-color;
+}
+
+// Ajustes na responsividade
+@media (max-width: 405px) {
+    .logoPc{
+        width: 180px;
+        margin-top: 15px;
+    }
+    .footer{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 350px){
+    .logoPc{
+        width: 150px;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 750px){
+    .titlePadding{
+        padding-top: 120px;
+    }
+
+    .shortTitle, .mediumTitle{
+        width: auto;
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 380px){
+    .shortTitle, .mediumTitle{
+        width: auto;
+        font-size: 40px;
+    }
+}

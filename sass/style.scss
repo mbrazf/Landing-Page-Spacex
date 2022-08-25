@@ -1,0 +1,17 @@
+//Importamos uma fonte do google
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400&display=swap");
+
+//Importamos as variáveis
+@import "./commonElements/variables.scss";
+
+//Importamos os estilos comuns em todas as páginas
+@import "./commonElements/commonElements.scss";
+
+//Aqui importamos os estilos da página home
+@import "./pages/home.scss";
+
+//Aqui importamos os estilos da página falcon9
+@import "./pages/falcon9.scss";
+
+//Aqui importamos os estilos da página humanSpaceFlight
+@import "./pages/humanSpace.scss";
