@@ -25,12 +25,28 @@
 
 .shortTitle{
     width: 550px;
-    margin-bottom: -25px;
+    margin-bottom: 25px;
 }
 
 .mediumTitle{
     width: 650px;
-    margin-bottom: -25px;
+    margin-bottom: 25px;
 }
 
+@media (max-width: 750px){
+    .titlePadding{
+        padding-top: 120px;
+    }
 
+    .shortTitle, .mediumTitle{
+        width: auto;
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 380px){
+    .shortTitle, .mediumTitle{
+        width: auto;
+        font-size: 40px;
+    }
+}
