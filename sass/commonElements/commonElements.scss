@@ -1,5 +1,7 @@
 // Aqui os estilos que serão comuns em todas as páginas do site
 
+
+
 // Header
 .header{
     font-size: 12px;
@@ -59,6 +61,31 @@
         }
     }
 }
+
+// Descrição da última sessão
+.downloadDesc{
+    background-color: black;
+    height: 85vh;
+    padding-top: 240px;
+
+    
+    button{
+        border: 2px solid white;
+        margin-right: 10px;
+    }
+}
+
+
+    .emailObc{
+        text-decoration: none;
+        color: white;
+        border-bottom: 1px solid white;
+        
+        &:hover{
+            color: $link-hover;
+        }
+    }
+
 
 // Símbolo copyright
 .copyOBC{
